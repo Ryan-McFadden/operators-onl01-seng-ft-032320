@@ -1,5 +1,4 @@
 def unsafe?(speed)
-  speed = 50
   if speed = speed < 40 || speed > 60
     return "whoa there!"
   else
@@ -10,7 +9,6 @@ end
 
 
 def not_safe?(speed)
-  speed = 50
   speed < 40 || speed > 60 ? "whoa there!" : "move along"
   
 end
